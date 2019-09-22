@@ -1,0 +1,79 @@
+/*header的样式*/
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+/*标题*/
+header h1{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*重新开始按钮,用块的超链接实现*/
+header #newGameButton{
+    display: block;
+    margin: 20px auto;
+    background-color: #8f7a66;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+/*鼠标覆盖按钮,按钮变色*/
+header #newGameButton:hover{
+    background-color: #9f8b77;
+}
+
+/*去下划线*/
+header a{
+    text-decoration: none;
+}
+
+/*设置p标签字体,大小*/
+header p{
+    font-family: Arial;
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+/*游戏区域,容器*/
+#container{
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #bbada0;
+    border-radius: 10px;
+    position: relative;
+}
+
+/*各种背景块属性*/
+.grid-cell{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #ccc0b3;
+    position: absolute;
+    margin：0 auto;
+}
+
+/*显示数字块属性*/
+.number-cell{
+    font-size: 40px;
+    border-radius: 6px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+
